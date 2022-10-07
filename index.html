@@ -16,15 +16,14 @@
   <section class="h-screen">
     <nav class="flex h-10 bg-gradient-to-r from-purple-500 to-pink-400 justify-between">
       <div class="flex">
-      <h1 class="text-2xl font-extrabold text-white py-0.5 px-5">Jingle</h1>
-      <img src="assets/Jingle-logos.jpeg" class="rounded-full">
-    </div>
+        <h1 class="text-2xl font-extrabold text-white py-0.5 px-5">Jingle</h1>
+        <img src="assets/Jingle-logos.jpeg" class="rounded-full">
+      </div>
       <ul class="space-x-5 flex py-1 text-white px-5">
-        <li class="cursor-pointer text-lg hover:underline">Home</li>
-        <li class="cursor-pointer text-lg hover:underline">Trending</li>
-        <li class="cursor-pointer text-lg hover:underline">All New</li>
-        <li class="cursor-pointer text-lg hover:underline">Artists</li>
-        <li class="cursor-pointer text-lg hover:underline">Genre</li>
+        <a href="#trending" class="cursor-pointer text-lg hover:underline">Trending</a>
+        <a href="#artists" class="cursor-pointer text-lg hover:underline">Artists</a>
+        <a href="#new_releases" class="cursor-pointer text-lg hover:underline">All New</a>
+        <a href="#genre" class="cursor-pointer text-lg hover:underline">Genre</a>
       </ul>
     </nav>
 
@@ -45,7 +44,7 @@
     </div>
   </section>
 
-  <section class="h-screen bg-gradient-to-r from-slate-200 to-slate-100">
+  <section class="h-screen bg-gradient-to-r from-slate-200 to-slate-100" id="trending">
     <h1 id="title" class=" trend text-black py-8 justify-center flex font-bold text-7xl">
       Trending
     </h1>
@@ -127,7 +126,7 @@
     </div>
   </section>
 
-  <section class="h-screen pt-6 bg-gradient-to-r from-slate-400 to-gray-200">
+  <section class="h-screen pt-6 bg-gradient-to-r from-slate-400 to-gray-200" id="artists">
     <div class="flex justify-center pb-8">
       <h1 class="text-lg font-bold text-slate-600">Best of</h1>
       <h1
@@ -187,7 +186,7 @@
             <h1 class="text-center text-lg text-white font-semibold">Sonu Nigam</h1>
           </div>
         </a>
-        <a href="sonu_nigam.html">
+        <a href="tulsi_kumar.html">
           <div class="space-y-4">
             <img src="assets/artists/tulsi-kumar.png"
               class="rounded-full h-60 w-60 py-3 hover:animate-pulse outline outline-offset-2 outline-4 outline-purple-600">
@@ -198,7 +197,7 @@
     </div>
   </section>
 
-  <section class=" h-screen bg-gradient-to-r from-slate-200 to-slate-100">
+  <section class=" h-screen bg-gradient-to-r from-slate-200 to-slate-100" id="new_releases">
     <h1 id="title" class=" releases text-black py-8 justify-center flex font-bold text-7xl">
       New Releases
     </h1>
@@ -280,7 +279,7 @@
     </div>
   </section>
 
-  <section class="h-screen pt-6 bg-gradient-to-r from-slate-400 to-gray-200">
+  <section class="h-screen pt-6 bg-gradient-to-r from-slate-400 to-gray-200" id="genre">
     <div class="flex justify-center pb-8">
       <h1 class="text-lg font-bold text-slate-600">Flavours of</h1>
       <h1
@@ -353,79 +352,111 @@
 
   <footer class="h-96">
     <div class="flex justify-center mt-5">
-    <h1 class="trend text-2xl">Made with&ensp;</h1>
-    <img src="assets/heart2.gif" class="h-9 w-9">
-    <h1 class="trend text-2xl">&ensp;by Chirag and Ankit</h1>
-  </div>
-  <div class="flex justify-evenly">
-  <div>
-    <h1 class="my-5 text-center text-lg font-semibold">Artists</h1>
-    <h1>Arijit Singh</h1>
-    <h1>Atif Aslam</h1>
-    <h1>Darshan Rawal</h1>
-    <h1>Gajendra Verma</h1>
-    <h1>Tulsi Kumar</h1>
-    <h1>Shreya Ghoshal</h1>
-    <h1>Sonu Nigam</h1>
-    <h1>Jubin Nautiyal</h1>
-  </div>
+      <h1 class="trend text-2xl">Made with&ensp;</h1>
+      <img src="assets/heart2.gif" class="h-9 w-9">
+      <h1 class="trend text-2xl">&ensp;by Chirag and Ankit</h1>
+    </div>
+    <div class="flex justify-evenly">
+      <div>
+        <h1 class="my-5 text-center text-lg font-semibold">Artists</h1>
+        <a href="arijit_singh.html">
+          <h1>Arijit Singh</h1>
+        </a>
+        <a href="atif_aslam.html">
+          <h1>Atif Aslam</h1>
+        </a>
+        <a href="darshan_raval.html">
+          <h1>Darshan Rawal</h1>
+        </a>
+        <a href="gajendra_verma.html">
+          <h1>Gajendra Verma</h1>
+        </a>
+        <a href="tulsi_kumar.html">
+          <h1>Tulsi Kumar</h1>
+        </a>
+        <a href="shreya_ghoshal.html">
+          <h1>Shreya Ghoshal</h1>
+        </a>
+        <a href="sonu_nigam.html">
+          <h1>Sonu Nigam</h1>
+        </a>
+        <a href="jubin_nautiyal.html">
+          <h1>Jubin Nautiyal</h1>
+        </a>
+      </div>
 
-  <div>
-    <h1 class="my-5 text-center text-lg font-semibold">Flavours</h1>
-    <h1>Romantic</h1>
-    <h1>Happy</h1>
-    <h1>Old</h1>
-    <h1>Sad</h1>
-    <h1>Punjabi</h1>
-    <h1>Instrumental</h1>
-    <h1>Patriotic</h1>
-    <h1>Party</h1>
-  </div>
+      <div>
+        <h1 class="my-5 text-center text-lg font-semibold">Flavours</h1>
+        <a href="romantic.html">
+          <h1>Romantic</h1>
+        </a>
+        <a href="happy.html">
+          <h1>Happy</h1>
+        </a>
+        <a href="old.html">
+          <h1>Old</h1>
+        </a>
+        <a href="sad.html">
+          <h1>Sad</h1>
+        </a>
+        <a href="punjabi.html">
+          <h1>Punjabi</h1>
+        </a>
+        <a href="instrumental.html">
+          <h1>Instrumental</h1>
+        </a>
+        <a href="patriotic.html">
+          <h1>Patriotic</h1>
+        </a>
+        <a href="party.html">
+          <h1>Party</h1>
+        </a>
+      </div>
 
-  <div>
-    <h1 class="my-5 text-center text-lg font-semibold">Trending</h1>
-    <div class="flex space-x-8">
-    <div>
-    <h1>Kesariya</h1>
-    <h1>Yeh Tune Kya Kiya</h1>
-    <h1>Mast Magan</h1>
-    <h1>Rait Zara Si</h1>
-    <h1>Agar Tum Saath Ho</h1>
-    <h1>Shayad</h1>
-  </div>
-  <div>
-    <h1>Tum Tak</h1>
-    <h1>Falak Tak</h1>
-    <h1>Tu Hi Yaar Mera</h1>
-    <h1>Mann Bhareya</h1>
-    <h1>Duniya</h1>
-    <h1>Zaalima</h1>
-  </div>
-</div>
-  </div>
+      <div>
+        <h1 class="my-5 text-center text-lg font-semibold">Trending</h1>
+        <div class="flex space-x-8">
+          <div>
+            <h1>Kesariya</h1>
+            <h1>Yeh Tune Kya Kiya</h1>
+            <h1>Mast Magan</h1>
+            <h1>Rait Zara Si</h1>
+            <h1>Agar Tum Saath Ho</h1>
+            <h1>Shayad</h1>
+          </div>
+          <div>
+            <h1>Tum Tak</h1>
+            <h1>Falak Tak</h1>
+            <h1>Tu Hi Yaar Mera</h1>
+            <h1>Mann Bhareya</h1>
+            <h1>Duniya</h1>
+            <h1>Zaalima</h1>
+          </div>
+        </div>
+      </div>
 
-  <div>
-    <h1 class="my-5 mx-auto text-center text-lg font-semibold">New Releases</h1>
-    <div class="flex space-x-8">
-    <div>
-    <h1>Manike</h1>
-    <h1>Lut Gaye</h1>
-    <h1>Dil Ibaadat</h1>
-    <h1>Tenu Lehenga</h1>
-    <h1>Kaise Hua</h1>
-    <h1>Paniyon Sa</h1>
-  </div>
-  <div>
-    <h1>Sakhiyaan</h1>
-    <h1>Pani Di Gal</h1>
-    <h1>Tumse Bhi Zyada</h1>
-    <h1>Phir Mohabbat</h1>
-    <h1>Itni Si Baat Hain</h1>
-    <h1>Hawayein</h1>
-  </div>
-</div>
-  </div>
-</div>
+      <div>
+        <h1 class="my-5 mx-auto text-center text-lg font-semibold">New Releases</h1>
+        <div class="flex space-x-8">
+          <div>
+            <h1>Manike</h1>
+            <h1>Lut Gaye</h1>
+            <h1>Dil Ibaadat</h1>
+            <h1>Tenu Lehenga</h1>
+            <h1>Kaise Hua</h1>
+            <h1>Paniyon Sa</h1>
+          </div>
+          <div>
+            <h1>Sakhiyaan</h1>
+            <h1>Pani Di Gal</h1>
+            <h1>Tumse Bhi Zyada</h1>
+            <h1>Phir Mohabbat</h1>
+            <h1>Itni Si Baat Hain</h1>
+            <h1>Hawayein</h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
